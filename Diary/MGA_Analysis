@@ -1,0 +1,49 @@
+bar(mga_descriptives_cohort(:,4:end),'DisplayName','mga_descriptives_cohort(:,4:end)')
+histogram(mga_descriptives_cohort(:,4:end))
+bar(mga_descriptives_cohort(:,4:end),'DisplayName','mga_descriptives_cohort(:,4:end)')
+mga_descriptives_cohort.Properties('RowNames',{'Control','Lesion'})
+{Struct contents reference from a non-struct array object.
+} 
+bar(mga_descriptives_cohort(:,4:end),'DisplayName','mga_descriptives_cohort(:,4:end)')
+hit_percentage = []
+
+hit_percentage =
+
+     []
+
+plot(hit_percentage,'DisplayName','hit_percentage')
+controlchart(hit_percentage)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('controlchart>errorcheck', 'C:\Program Files\MATLAB\R2015b\toolbox\stats\stats\controlchart.m', 958)" style="font-weight:bold">controlchart>errorcheck</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2015b\toolbox\stats\stats\controlchart.m',958,0)">line 958</a>)
+WIDTH cannot be larger than the number of points.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('controlchart', 'C:\Program Files\MATLAB\R2015b\toolbox\stats\stats\controlchart.m', 227)" style="font-weight:bold">controlchart</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2015b\toolbox\stats\stats\controlchart.m',227,0)">line 227</a>)
+errorcheck(X,ngroups,label,lambda,limits,parent,cctypes,nsigma,...
+} 
+bar(hit_percentage,'DisplayName','hit_percentage')
+plot(hit_percentage(1,:))
+plot(hit_percentage(1,:))
+plot(hit_percentage(1,:))
+plot(hit_percentage(2,:))
+plot(hit_percentage(3,:))
+plot(hit_percentage(end,:))
+plot(hit_percentage,'DisplayName','hit_percentage')
+plot(hit_percentage([1:4],:))
+[Warning: Error creating or updating Line
+ Error in value of one or more of the following properties:  <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','XData');")">XData</a> <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','YData');")">YData</a>
+ Array is wrong shape or size] 
+[Warning: Error creating or updating Line
+ Error in value of one or more of the following properties:  <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','XData');")">XData</a> <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','YData');")">YData</a>
+ Array is wrong shape or size] 
+[Warning: Error updating Stair.
+
+ Undefined function or variable 'numVert'.
+] 
+[Warning: Error creating or updating Line
+ Error in value of one or more of the following properties:  <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','XData');")">XData</a> <a href="matlab:helpUtils.reference.showPropertyHelp('matlab.graphics.chart.primitive.Line','YData');")">YData</a>
+ Array is wrong shape or size] 
+plot(hit_percentage(1,:))
+hold on
+plot(hit_percentage(2,:))
+plot(hit_percentage(3,:))
+plot(hit_percentage(end,:))
+diary('MGA_analysis_cont')
